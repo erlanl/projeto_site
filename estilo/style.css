@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Variáveis*/
+:root {
+    --cor1: #4A1C66;
+    --cor2: #3a256e;
+
+    --fonte-padrao: 'Roboto', Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Montserrat', sans-serif;
+}
+
+main {
+    background: var(--cor1);
+}
+
+nav {
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+
+}
+
+
+nav a {
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+    font-size: 15px;
+    font-family: var(--fonte-destaque);
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+header {
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+    height: 550px;
+
+    background-image: linear-gradient(112.74deg, rgba(7, 0, 12, 0.76) 0%, #351A45 25.52%, #432158 46.87%, #572A73 81.77%, #813DAA 100%);
+
+}
+
+#poligono {
+    width: 0; 
+    height: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid var(--cor1);
+    transform: translateY(840%);
+
+}
+
+
+h1#ola {
+    text-align: center;
+    transform: translateY(160%);
+    font-family: var(--fonte-destaque);
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 73px;
+}
+
+
+h1#mundo {
+    transform: translateY(30%);
+    font-family: var(--fonte-destaque);    
+    font-weight: 900px;
+    font-size: 160px;
+
+}
+
+header p {
+    transform: translateY(120%);
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    font-size: 15px;
+
+    opacity: 0.9;
+}
+
+div#perfil {
+    background-color: #fff;
+    text-align: center;
+}
+
+div#perfil h1 {
+    color: black;
+    line-height: 180px;
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+}
+
+div#perfil img#perfil {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(40%);
+    border: 8px solid #fff;
+
+}
+
+div#perfil p {
+    font-family: var(--fonte-destaque);
+    color: black;
+    transform: translateY(-200%);
+    padding: 5px;
+}
+
+
+div#informações {
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: var(--cor1);
+
+    width: 450px;
+    height: 390px;
+    display: inline-block;
+}
+
+section#sobre_mim {
+    margin-right: 25px;
+}
+
+section#habilidades {
+    margin-left: 25px;
+}
+
+h2 {
+    font-family: var(--fonte-destaque);
+    font-weight: 550;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+section p {
+    color: #fff;
+
+    font-family: var(--fonte-padrao);
+    padding: 5px;
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 35px;
+    transform: translateY(8%);
+
+}
+
+section#sobre_mim {
+    background-color: var(--cor2);
+}
+
+ul {
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 38px;
+    padding-bottom: 10px;
+
+
+    text-align: left;
+    line-height: 30px;
+    font-family: var(--fonte-padrao);
+    font-weight: 550;
+
+}
+
+h3 {
+    font-family: var(--fonte-destaque);
+    font-weight: 900;
+    color: #fff;
+    text-align: left;
+    font-size: 15px;
+    padding: 15px;
+    padding-top: 15px;
+}
+
+ul#outros {
+    padding-top: 5px;
+    padding-left: 45px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+
+input {
+    font-family: var(--fonte-destaque);
+    border-radius: 0;
+    width: 250px;
+    height: 50px;
+    color: var(--cor1);
+
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid var(--cor1);
+    background-color: transparent;
+    transition: 1s all ease;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    display: block;
+}
+
+a#link_projetos:hover{
+    text-decoration: none;
+}
+
+input:hover {
+    border: 2px solid var(--cor2);
+	background-color: var(--cor2);
+	border: 5px solid lighten(#000, 5%);
+	color: #fff;
+
+	cursor: pointer;
+}
+
+input#input_projetos {
+    border: 2px solid var(--cor2);
+
+}
+
+input#input_projetos:hover{
+    border: 2px solid var(--cor1);
+	background-color: var(--cor1);
+}
+
+p#contato {
+    display: none;
+}
+
+input a:link, a:visited{
+    text-decoration: none;
+    
+}
+
+input a:hover{
+    text-decoration: underline;
+    
+}
+
+input::after p#contato{
+    background-color: #fff
+}
+    
+abbr {
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 1050px){
+    header a {
+        padding: 90px;
+    }
+
+    section {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        margin-bottom: 50px;
+        background-color: var(--cor1);
+    
+        width: 400px;
+        height: 390px;
+        display: inline-block;
+    }
+
+    #poligono {
+        transform: translateY(848%);
+    
+    }
+}
+
+@media (max-width: 860px){
+    header a {
+        padding: 25px;
+    }
+
+    h1#ola {
+        transform: translateY(165%);
+        font-size: 22px;
+    }
+
+    h1#mundo {
+        font-size: 130px;
+        transform: translateY(45%);
+    }
+
+    header > p {
+        transform: translateY(145%);
+
+    }
+    
+    #poligono {
+        transform: translateY(980%);
+    
+    }
+
+    div#informações {
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    section#sobre_mim {
+        margin-right: auto;
+    }
+    
+    section#habilidades {
+        margin-left: auto;
+    }
+
+    h2, h3 {
+        text-align: center;
+    }
+
+    ul {
+        margin-left: 0px;
+        padding: 20px;
+    }
+
+    div#informações p, li {
+        text-align: center;
+        list-style-type: none;
+    }
+    
+}
+
+@media (max-width: 610px){
+    header a {
+        padding: 30px;
+    }
+
+    h1#ola {
+        transform: translateY(195%);
+        font-size: 22px;
+    }
+
+    h1#mundo {
+        font-size: 100px;
+        transform: translateY(78%);
+    }
+
+    header > p {
+        transform: translateY(290%);
+        font-size: 12px;
+
+    }
+    
+    #poligono {
+        transform: translateY(1170%);
+    
+    }
+
+    div#informações {
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    section#sobre_mim {
+        margin-right: auto;
+    }
+    
+    section#habilidades {
+        margin-left: auto;
+    }
+    section {
+
+        padding: 20px;
+
+        width: 350px;
+        height: 390px;
+        display: inline-block;
+    }
+    
+    h2, h3 {
+        text-align: center;
+    }
+
+    ul {
+        margin-left: 0px;
+        padding: 20px;
+    }
+
+    div#informações p, li {
+        text-align: center;
+        list-style-type: none;
+    }
+
+    div#informações p {
+        transform: translateY(5%);
+    }
+}
