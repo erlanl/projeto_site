@@ -1,0 +1,66 @@
+@media (max-width: 610px){
+    header a {
+        padding: 30px;
+    }
+
+    h1#ola {
+        transform: translateY(195%);
+        font-size: 22px;
+    }
+
+    h1#mundo {
+        font-size: 100px;
+        transform: translateY(78%);
+    }
+
+    header > p {
+        transform: translateY(290%);
+        font-size: 12px;
+
+    }
+    
+    #poligono {
+        transform: translateY(1170%);
+    
+    }
+
+    div#informações {
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    section#sobre_mim {
+        margin-right: auto;
+    }
+    
+    section#habilidades {
+        margin-left: auto;
+    }
+    section {
+
+        padding: 20px;
+
+        width: 350px;
+        height: 390px;
+        display: inline-block;
+    }
+    
+    h2, h3 {
+        text-align: center;
+    }
+
+    ul {
+        margin-left: 0px;
+        padding: 20px;
+    }
+
+    div#informações p, li {
+        text-align: center;
+        list-style-type: none;
+    }
+
+    div#informações p {
+        transform: translateY(5%);
+    }
+}
